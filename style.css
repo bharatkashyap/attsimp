@@ -185,11 +185,11 @@ button:hover, button:focus
   #img
   {
     position : absolute;
-    bottom : -12%;
+    bottom : -15%;
   }
 
 
-@media only screen and (max-height : 200px)
+@media only screen and (max-height : 100px)
 {
   #img
   {
