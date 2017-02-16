@@ -1,0 +1,187 @@
+@font-face
+{
+    font-family : Campton;
+    src : url("Assets/Fonts/Campton-SemiBold.otf");
+    font-weight : bold;
+}
+
+@font-face
+{
+    font-family : Campton;
+    src : url("Assets/Fonts/Campton-Light.otf");
+    font-weight : light;
+}
+
+#splash
+{
+  background : url("Assets/Img/bg.png");
+  background-repeat : no-repeat;
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%;
+  height : 100%;
+  font-family : Campton;
+}
+
+#text
+{
+  position: absolute;
+  top : 30%;
+  left : 10%;
+  width : 40%;
+}
+
+.heading
+{
+  font-weight : bold;
+  font-size : 3em;
+  color : rgba(255,255,255,1);
+}
+
+.description
+{
+  font-size :  1.3em;
+  font-weight : normal;
+  color : rgba(0,0,0,0.7);
+}
+
+#img
+{
+  position : absolute;
+  left : 50%;
+  height : 100%;
+  width : 50%;
+  background : url("Assets/Img/sim.png");
+  background-origin : content-box;
+  background-position : bottom;
+  background-repeat : no-repeat;
+}
+
+button
+{
+  border : none;
+  margin-top : 15%;
+  padding : 4% 12%;
+  border-radius : 30px;
+  background : rgba(0,0,0,0.7);
+  color : rgba(255,255,255,1);
+  font-variant: small-caps;
+  font-size: 1.2em;
+  transition : all 0.1s ease-in;
+}
+
+button:hover, button:focus
+{
+  cursor : pointer;
+  outline : none;
+  box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  #text
+  {
+    top : 10%;
+    left : 18%;
+    width : 65%;
+    text-align : center;
+  }
+
+  .heading
+  {
+    font-size : 2.1em;
+  }
+
+  .description
+  {
+    font-size :  1.1em;
+  }
+
+  button
+  {
+
+    border-radius : 15px;
+    margin-top : 20%;
+    padding : 4% 12%;
+    font-size: 0.9em;
+    box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  button:hover, button:focus
+  {
+    outline : none;
+  }
+
+  #img
+  {
+    bottom : 0;
+    left : 0;
+    height : 50%;
+    width : 100%;
+    background : url("Assets/Img/mobsim.png");
+    background-origin : content-box;
+    background-position : bottom;
+    background-repeat : no-repeat;
+  }
+
+  @media only screen and (max-height: 568px) {
+
+    .heading
+    {
+      font-size : 1.9em;
+    }
+
+    .description
+    {
+      font-size :  0.9em;
+    }
+
+    button
+    {
+      margin-top : 14%;
+      font-size: 0.8em;
+    }
+
+    @media only screen and (max-height: 414px) {
+
+      .heading
+      {
+        font-size : 1.9em;
+      }
+
+      .description
+      {
+        font-size :  0.9em;
+      }
+
+      button
+      {
+        margin-top : 5%;
+        font-size: 0.8em;
+      }
+
+      @media only screen and (max-height: 320px) {
+
+        .heading
+        {
+          font-size : 1.6em;
+        }
+
+        .description
+        {
+          font-size :  0.9em;
+        }
+
+        button
+        {
+          margin-top : 5%;
+          font-size: 0.8em;
+        }
+
+        #img {
+          bottom : -10%;
+        }
+      
+
+
+}
