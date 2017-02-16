@@ -189,7 +189,7 @@ button:hover, button:focus
   }
 
 
-@media only screen and (max-height : 100px)
+@media only screen and (max-height : 120px)
 {
   #img
   {
