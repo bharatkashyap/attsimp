@@ -21,6 +21,7 @@ body
 {
   background : url("Assets/Img/bg.png");
   background-repeat : no-repeat;
+  background-size: cover;
   position : absolute;
   top : 0;
   left : 0;
@@ -133,7 +134,7 @@ button:hover, button:focus
   }
 
 }
-@media only screen and (orientation : landscape) {
+@media only screen and (max-height : 420px) and (orientation : landscape) {
   #text
   {
     top : 8%;
@@ -184,11 +185,11 @@ button:hover, button:focus
   #img
   {
     position : absolute;
-    bottom : -8%;
+    bottom : -12%;
   }
 
 
-@media only screen and (max-height : 320px)
+@media only screen and (max-height : 300px)
 {
   #img
   {
