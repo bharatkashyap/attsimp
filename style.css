@@ -142,5 +142,46 @@ button:hover, button:focus
       font-size: 0.8em;
     }
 
+    @media only screen and (max-height: 414px) {
+
+      .heading
+      {
+        font-size : 1.9em;
+      }
+
+      .description
+      {
+        font-size :  0.9em;
+      }
+
+      button
+      {
+        margin-top : 5%;
+        font-size: 0.8em;
+      }
+
+      @media only screen and (max-height: 320px) {
+
+        .heading
+        {
+          font-size : 1.6em;
+        }
+
+        .description
+        {
+          font-size :  0.9em;
+        }
+
+        button
+        {
+          margin-top : 5%;
+          font-size: 0.8em;
+        }
+
+        #img {
+          bottom : -10%;
+        }
+      
+
 
 }
