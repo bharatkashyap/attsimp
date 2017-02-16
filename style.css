@@ -126,7 +126,7 @@ button:hover, button:focus
     left : 0;
     height : 50%;
     width : 100%;
-    background : url("Assets/Img/mobsim.png");
+    background : url("Assets/Img/mobsim.svg");
     background-origin : content-box;
     background-position : bottom;
     background-repeat: no-repeat;
@@ -173,14 +173,22 @@ button:hover, button:focus
     left : 0;
     height : 50%;
     width : 100%;
-    background : url("Assets/Img/mobsim.png");
+    background : url("Assets/Img/mobsim.svg");
     background-origin : content-box;
     background-position : bottom;
     background-repeat : no-repeat;
   }
 }
-
 @media only screen and (max-height : 360px)
+{
+  #img
+  {
+    position : absolute;
+    bottom : -8%;
+  }
+
+
+@media only screen and (max-height : 320px)
 {
   #img
   {
