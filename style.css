@@ -147,7 +147,8 @@ ul
 #ham-container
 {
   width : 29%;
-  margin-top : 0;
+  margin-top : 2%;
+  margin-bottom : 2%;
   padding-top : 1%;
   transition: 0.5s ease-in-out;
   padding-bottom : 1%;
@@ -264,6 +265,13 @@ ul
     background-origin : content-box;
     background-position : bottom;
     background-repeat : no-repeat;
+  }
+
+  #alt-nav a
+  {
+    display: block;
+    margin-left: 20px;
+    padding : 8px 0;
   }
 
 
