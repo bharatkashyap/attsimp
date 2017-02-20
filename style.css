@@ -267,6 +267,12 @@ ul
     background-repeat : no-repeat;
   }
 
+  #ham-container
+  {
+    margin-top : 0.5%;
+    margin-bottom : 0.5%;
+  }
+
   #alt-nav a
   {
     display: block;
