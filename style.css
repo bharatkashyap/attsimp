@@ -208,6 +208,7 @@ ul
     background-origin : content-box;
     background-position : bottom;
     background-repeat: no-repeat;
+    transition : 0.5s;
   }
 
   #nav, #foot
