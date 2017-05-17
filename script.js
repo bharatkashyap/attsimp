@@ -6,6 +6,7 @@ var image = document.getElementById("img");
 
 function bringGrid()
 {
+  hamburger.className = "fa fa-arrow-left";
   list.style.width = "35%";
   text.style.opacity = 0.4;
   image.style.opacity = 0.4;
@@ -13,6 +14,7 @@ function bringGrid()
 
 function hideGrid()
 {
+  hamburger.className = "fa fa-bars";
   list.style.width = "0";
   text.style.opacity = 1;
   image.style.opacity = 1;
@@ -24,12 +26,11 @@ function callMenu()
 
   if(hamburger.classList.contains("fa-bars"))
   {
-    hamburger.className = "fa fa-arrow-left";
     bringGrid();
+    text.addEventListener("click", hideGrid);
   }
   else
   {
-    hamburger.className = "fa fa-bars";
     hideGrid();
   }
 
